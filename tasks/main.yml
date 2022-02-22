@@ -1,0 +1,16 @@
+---
+- name: Ensure dependencies are installed
+  apt:
+    name: "{{ cacertificates_dependencies }}"
+    state: present
+    update_cache: true
+
+- name: Install ca files
+  copy:
+    dest: "/usr/share/ca-certificates/{{ item.dest }}"
+    group: root
+    mode: 0644
+    owner: root
+    src: "{{ item.src }}"
+  loop: "{{ cacertificates_files }}"
+  notify: Update ca-certificates

@@ -1,0 +1,7 @@
+---
+cacertificates_dependencies:
+  - ca-certificates
+
+cacertificates_files: []
+# - src: files/development/ssl/rootCA.pem
+#   dest: mld-root-ca.pem
