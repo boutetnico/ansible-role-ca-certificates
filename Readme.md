@@ -1,5 +1,5 @@
 [![tests](https://github.com/boutetnico/ansible-role-ca-certificates/workflows/Test%20ansible%20role/badge.svg)](https://github.com/boutetnico/ansible-role-ca-certificates/actions?query=workflow%3A%22Test+ansible+role%22)
-[![Ansible Galaxy](https://img.shields.io/badge/galaxy-boutetnico.ca-certificates-blue.svg)](https://galaxy.ansible.com/boutetnico/ca-certificates)
+[![Ansible Galaxy](https://img.shields.io/badge/galaxy-boutetnico.ca_certificates-blue.svg)](https://galaxy.ansible.com/boutetnico/ca_certificates)
 
 ansible-role-ca-certificates
 ============================
