@@ -3,7 +3,7 @@
   hosts: all
 
   roles:
-    - role: ansible-role-ca-certificates
+    - role: boutetnico.ca_certificates
       cacertificates_files:
         - src: certs/cert1.pem
           dest: cert1.pem
