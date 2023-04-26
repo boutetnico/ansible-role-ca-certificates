@@ -9,7 +9,7 @@
   ansible.builtin.copy:
     dest: "/usr/share/ca-certificates/{{ item.dest }}"
     group: root
-    mode: 0644
+    mode: "0644"
     owner: root
     src: "{{ item.src }}"
   loop: "{{ cacertificates_files }}"
